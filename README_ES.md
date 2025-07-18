@@ -1,3 +1,83 @@
+# 💻 Cómo usar este script en tu sistema operativo
+
+## ✅ Linux (Debian, Ubuntu, Fedora, Arch, etc.)
+
+No necesitas instalar nada adicional. Python ya viene preinstalado.
+
+```bash
+python3 renombrar.py
+```
+
+---
+
+## 🪟 Windows
+
+1. **Instalar Python** (si no lo tienes):
+
+   * Ve a [https://www.python.org/downloads/](https://www.python.org/downloads/)
+   * Descarga la última versión de Python 3.x para Windows.
+   * Durante la instalación, asegúrate de marcar la casilla: **"Add Python to PATH"** antes de hacer clic en "Install Now".
+
+2. **Verificar la instalación**:
+   Abre la consola (puedes buscar “cmd” o “Windows PowerShell”) y escribe:
+
+   ```bash
+   python --version
+   ```
+
+   Si ves algo como `Python 3.x.x`, está todo listo.
+
+3. **Ejecutar el script**:
+
+   * Navega con la terminal hasta la carpeta donde están tus archivos y el script, por ejemplo:
+
+     ```bash
+     cd "C:\Users\TuUsuario\Imágenes\Libro"
+     ```
+
+   * Luego ejecuta:
+
+     ```bash
+     python renombrar.py
+     ```
+
+---
+
+## 🍎 macOS
+
+1. **Verificar si tienes Python 3**:
+   Abre la Terminal (desde Launchpad o Spotlight) y escribe:
+
+   ```bash
+   python3 --version
+   ```
+
+   Si ya tienes una versión de Python 3, puedes ejecutar el script con:
+
+   ```bash
+   python3 renombrar.py
+   ```
+
+2. **Si no tienes Python 3 instalado**:
+
+   * Instala [Homebrew](https://brew.sh/) si no lo tienes:
+
+     ```bash
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
+
+   * Luego instala Python:
+
+     ```bash
+     brew install python
+     ```
+
+   * Y ejecuta el script con:
+
+     ```bash
+     python3 renombrar.py
+     ```
+
 # renombrar-archivos-numerados-de-1-a-001
 
 Este script en Python (`renombrar.py`) permite **renombrar archivos numerados secuencialmente** agregando ceros a la izquierda, para que se ordenen correctamente en sistemas que usan orden alfabético.
